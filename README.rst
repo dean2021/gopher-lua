@@ -92,7 +92,7 @@ GopherLua 支持channel，具体参见**"Goroutines"**章节.
    }
 
 
-更多内容参考`Lua Reference Manual <http://www.lua.org/manual/5.1/>`_ and `Go doc <http://godoc.org/github.com/yuin/gopher-lua>`
+更多内容参考` Lua官方手册 <http://www.lua.org/manual/5.1/>`_ 和 `Go官方文档 <http://godoc.org/github.com/yuin/gopher-lua>`
 
 
 Note that elements that are not commented in `Go doc <http://godoc.org/github.com/yuin/gopher-lua>`_ equivalent to `Lua Reference Manual <http://www.lua.org/manual/5.1/>`_ , except GopherLua uses objects instead of Lua stack indices.
