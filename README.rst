@@ -23,6 +23,7 @@ with Lua: **Be a scripting language with extensible semantics** . It provides
 Go APIs that allow you to easily embed a scripting language to your Go host
 programs.
 
+
 .. contents::
    :depth: 1
 
@@ -58,14 +59,13 @@ Installation
 GopherLua supports >= Go1.7.
 
 ----------------------------------------------------------------
-Usage
+使用教程
 ----------------------------------------------------------------
-GopherLua APIs perform in much the same way as Lua, **but the stack is used only
-for passing arguments and receiving returned values.**
+GopherLua API的执行方式与Lua非常相似, **但堆栈只用于用于传递参数和接收返回的值。**
 
-GopherLua supports channel operations. See **"Goroutines"** section.
+GopherLua 支持channel，具体参见**"Goroutines"**章节.
 
-Import a package.
+引入一个包
 
 .. code-block:: go
 
@@ -73,7 +73,7 @@ Import a package.
        "github.com/yuin/gopher-lua"
    )
 
-Run scripts in the VM.
+在lua虚拟机中运行lua脚本
 
 .. code-block:: go
 
